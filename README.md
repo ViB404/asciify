@@ -4,8 +4,8 @@
 
 ---
 ![Rust](https://img.shields.io/badge/rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![GitHub Repo stars](https://img.shields.io/github/stars/vib404/asciify?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/vib404/asciify?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/ViB404/asciify?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/ViB404/asciify?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
 ---
 A command line tool written in Rust that decodes video and plays it in your terminal as ASCII art.
@@ -49,6 +49,20 @@ let palette = dark;
 cargo run --release
 ```
 
+Here is the corrected version of your dependencies section.
+
+---
+## Dependencies
+```toml
+[dependencies]
+image = "0.25.10"
+vid2img = "0.1.0"
+clearscreen = "4.0.6"
+```
+
+* `image`: For image processing
+* `vid2img`: For video to frame conversion
+* `clearscreen`: For clearing the terminal
 ---
 
 ## ⚠️ Troubleshooting Errors:
